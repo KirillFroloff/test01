@@ -54,7 +54,7 @@ public class Sbase {
     protected void setText(final WebElement webElement, final String string) {
         waitVisibilityOfElement(webElement);
 
-        webElement.sendKeys(string);
+        webElement.sendKeys(string);   
 
     }
 
