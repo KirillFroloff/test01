@@ -6,7 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class EnitPage extends Sbase {
-
+    @Epic("Селениум")
+    @Feature("Гугле тетс")
+    @Story("Проверяем картинки")
+    
     @FindBy(xpath = ".//input[@title='Поиск']")
     private WebElement setSearchText;
 
