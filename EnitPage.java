@@ -35,7 +35,7 @@ public class EnitPage extends Sbase {
      * Кликаем по кнопке Поиск в гугле.
      */
     public void clickSubmitSearch() {
-        submitSearch.click();
+        submitSearch.click(); 
     }
 
 }
